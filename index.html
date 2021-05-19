@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla JS Practice</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="page">
+      <button id="delete-btn" class="page-delete">Delete</button>
+      <div class="modal-container">
+        <p id="modal-head">Are you sure you want to delete?</p>
+        <p id="modal-body">This action cannot be undone</p>
+        <div id="modal-btns">
+          <button id="modal-btn" class="modal-can">cancel</button>
+          <button id="modal-btn" class="modal-del">delete</button>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
